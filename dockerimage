@@ -1,0 +1,5 @@
+FROM httpd
+MAINTAINER name pavan
+LABEL This is my doc1 image
+EXPOSE 80
+COPY . /user/local/apache2/htdocs/
